@@ -1,0 +1,31 @@
++---------------------+
+|       Shape         |
++---------------------+
+| - shapeName: String |
+| - color: String     |
++-----------------+
+| + Shape()           |
+| + Shape(shapeName: String, color: String) |
+| + setShapeName(shapeName: String): void |
+| + getShapeName(): String |
+| + setColor(color: String): void |
+| + getColor(): String |
+| + toString(): String |
++----------------------+
+          ^
+          |
+          |
++-----------------+
+|   Rectangle|
++-----------------+
+| - width: double |
+| - height: double|
++-----------------+
+| + Rectangle(_shapeName: String, _color: String, _width: double, _height: double) |
+| + setWidth(_width: double): void |
+| + getWidth(): double |
+| + setHeight(_height: double): void |
+| + getHeight(): double |
+| + toString(): String |
+| + calArea(): double  |
++----------------------+
